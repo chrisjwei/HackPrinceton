@@ -23,26 +23,21 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	color:white; 
 	margin-top: 40px;
 	padding:20px;
-	height:360px;
+	height:320px;
 	background-image: url("jumbo_bg.jpg");
 }
 
 .jumbo_inner{
-	color:#FFFFFF;
+	color:#777777;
+	background-color: rgba(255,255,255,0.7);
 	padding:30px;
 	font-weight: 900;
-	text-shadow: 0px 0px 3px #333333;
 	height:120px;
-	width:700px;
+	width:430px;
 	position:relative;
-	top: 90px;
-	border-style: solid;
-    border-width: 3px;
-    border-color:#ffffff;
-	margin-left:auto;
-	margin-right:auto;
-	box-shadow: 0px 0px 3px #333333;
-	
+	top: 70px;
+	margin-left:60px;
+	border-radius:2px;
 }
 
 .header_content{
@@ -63,23 +58,25 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 #query_text{
 	padding:10 20 10 20px;
 	margin-top: 10px;
-	border: 1px solid #4183D7;
+	border: 0px solid #ffffff;
 	background-color: rgba(255,255,255,0.9);
 	font-weight:300;
 	font-size:18;
 	text-decoration:none;
 	width:300px;
 	border-radius:2px;
+	box-shadow: 0px 0px 2px #91e8fb;
 }
 
 #submit{
 	padding:10 25 10 25px;
-	background-color:#3498DB;
+	background-color:#91e8fb;
 	margin-left: 10px;
 	font-weight:300;
 	font-size: 18px;
 	color:white;
-	border: 1px solid #4183D7;
+	border: 0px solid white;
 	text-decoration:none;
 	border-radius:2px;
+	box-shadow: 0px 0px 1px #ffffff;
 }
