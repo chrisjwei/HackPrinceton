@@ -31,9 +31,13 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	background-image: url("jumbo_bg.jpg");
 
 }
-
-.buffer{
+#footer{
+	margin-top:300px;
+	background-color:#d0d0d0;
 	height:100px;
+}
+.buffer{
+	height:50px;
 }
 
 .divtitle{
@@ -61,6 +65,12 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	width:960px;
 	margin-left:auto;
 	margin-right:auto;
+}
+
+.drop_shadow{
+	background-color: #F0F0F0; /* 145,232,251 */
+	height:250px;
+	padding-top:10px;
 }
 
 .main {
