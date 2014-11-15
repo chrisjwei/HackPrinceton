@@ -14,15 +14,29 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 
 .header {
-	background-color: #67809F;
+	background-color: #91e8fb;
+}
+.overlay{
+	background-color: rgba(145,232,251,.9);
 }
 
 .jumbo {
 	font-size: 18px;
-	color:white;
+	color:white; 
 	margin-top: 10px;
 	padding:20px;
+	height:360px;
 	background-image: url("jumbo_bg.jpg");
+}
+
+.jumbo_inner{
+	padding:20px;
+	height:270px;
+	width:700px;
+	padding-top: 80px;
+	margin-left:auto;
+	margin-right:auto;
+	
 }
 
 .header_content{
@@ -47,7 +61,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	font-weight:300;
 	font-size:18;
 	text-decoration:none;
-	width:790px;
+	width:300px;
 	border-radius:2px;
 }
 
