@@ -18,10 +18,11 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 }
 
 .jumbo {
+	font-size: 18px;
 	color:white;
 	margin-top: 10px;
 	padding:20px;
-	background-color: #67809F;
+	background-image: url("jumbo_bg.jpg");
 }
 
 .header_content{
@@ -44,9 +45,9 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	margin-top: 10px;
 	border: 1px solid #4183D7;
 	font-weight:300;
-	font-size:12;
+	font-size:18;
 	text-decoration:none;
-	width:810px;
+	width:790px;
 	border-radius:2px;
 }
 
@@ -55,7 +56,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	background-color:#3498DB;
 	margin-left: 10px;
 	font-weight:300;
-	font-size:12;
+	font-size: 18px;
 	color:white;
 	border: 1px solid #4183D7;
 	text-decoration:none;
