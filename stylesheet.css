@@ -38,8 +38,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 .divtitle{
 	height:30px;
-	padding:10px;
-	background-color: red;
+	padding:10 0 10 0px;
 }
 
 .jumbo_inner{
@@ -94,10 +93,4 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	text-decoration:none;
 	border-radius:2px;
 	box-shadow: 0px 0px 1px #ffffff;
-}
-
-#birds{
-    background-image: url("pattern.svg");
-    height: 300px;
-    width: 960px;
 }
