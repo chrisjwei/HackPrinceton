@@ -14,28 +14,34 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 
 .header {
-	background-color: #91e8fb;
+	background-color: #91e8fb; /* 145,232,251 */
+	height:80px;
+	padding:10px;
 }
-.overlay{
-	background-color: rgba(145,232,251,.9);
-}
-
 .jumbo {
 	font-size: 18px;
 	color:white; 
-	margin-top: 10px;
+	margin-top: 40px;
 	padding:20px;
 	height:360px;
 	background-image: url("jumbo_bg.jpg");
 }
 
 .jumbo_inner{
-	padding:20px;
-	height:270px;
+	color:#FFFFFF;
+	padding:30px;
+	font-weight: 900;
+	text-shadow: 0px 0px 3px #333333;
+	height:120px;
 	width:700px;
-	padding-top: 80px;
+	position:relative;
+	top: 90px;
+	border-style: solid;
+    border-width: 3px;
+    border-color:#ffffff;
 	margin-left:auto;
 	margin-right:auto;
+	box-shadow: 0px 0px 3px #333333;
 	
 }
 
@@ -58,6 +64,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	padding:10 20 10 20px;
 	margin-top: 10px;
 	border: 1px solid #4183D7;
+	background-color: rgba(255,255,255,0.9);
 	font-weight:300;
 	font-size:18;
 	text-decoration:none;
