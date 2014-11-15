@@ -12,9 +12,13 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	font-family: 'Open Sans', sans-serif;
 }
 
+.hline{
+	height:3px;
+	background-color:#C5EFF7;
+}
 
 .header {
-	background-color: #91e8fb; /* 145,232,251 */
+	background-color: #F0F0F0; /* 145,232,251 */
 	height:80px;
 	padding:10px;
 }
@@ -25,11 +29,13 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	padding:20px;
 	height:320px;
 	background-image: url("jumbo_bg.jpg");
+
 }
 
 .jumbo_inner{
 	color:#777777;
-	background-color: rgba(255,255,255,0.7);
+	background-color: rgba(255,255,255,0.8);
+	box-shadow: 0px 0px 2px #91e8fb;
 	padding:30px;
 	font-weight: 900;
 	height:120px;
@@ -52,13 +58,12 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	width:960px;
 	margin-left:auto;
 	margin-right:auto;
-	background-color:red;
 }
 
 #query_text{
 	padding:10 20 10 20px;
 	margin-top: 10px;
-	border: 0px solid #ffffff;
+	border: 1px solid #eaeaea;
 	background-color: rgba(255,255,255,0.9);
 	font-weight:300;
 	font-size:18;
