@@ -40,31 +40,6 @@
 		<div id="map" style="height: 540px; width: 790px;float:left;clear:both;"></div>
 		<div id="tweets">
 			<ul id="results">
-			<li>@creeswei</li>
-			<li><hr></li>
-			<li>@basedgod</li>
-			<li><hr></li>
-			<li>@yungmoney</li>
-			<li><hr></li>
-			<li>@elonmusk</li>
-			<li><hr></li>
-			<li>@dj_lean</li>
-			<li><hr></li>
-			<li>@barney</li>
-			<li><hr></li>
-			<li>@not_ur_mom</li>
-			<li><hr></li>
-			<li>@ZZZZZZZZZZZZZZZ</li>
-			<li><hr></li>
-			<li>@john</li>
-			<li><hr></li>
-			<li>@gunther</li>
-			<li><hr></li>
-			<li>@davinci</li>
-			<li><hr></li>
-			<li>@paul</li>
-			<li><hr></li>
-			<li>@farnsworth</li>
 			</ul>
 		</div>
 	</div>

@@ -7,11 +7,19 @@ var heatmap;
 
 var data = new google.maps.MVCArray();
 
+function update_people(usrArr){
+  var results = document.getElementById("results")
+  $(results).empty();
+  for (usr in usrArr){
+    $(results).append('<li>@'+usr+'</li>');
+    $(results).append('<li><hr></li>'); 
+  }
+}
+
 function update_heatmap(newLatLng){
   data.push(newLatLng);
   if(data.length > 50){
     data[0]= null;
-    data.push(newLatLng);
     data.shift();
   }
   else if(data.length === 1){ //activates when data = []
