@@ -36,8 +36,9 @@ hr{
 	color:white; 
 	margin-top: 40px;
 	padding:20px;
-	height:320px;
-	background-image: url("jumbo_bg.jpg");
+	height:400px;
+	width:920px;
+	background-image: url("parallax.svg");
 
 }
 #footer{
