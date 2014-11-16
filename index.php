@@ -14,7 +14,7 @@
 <body style=background-color:#F9F9F9;>
 <div class = "header">
 	<div class = "header_content">
-	<a href = "index.php"><img src="heat_tweet_logo.svg" style ="width:203px;height:46px;position:relative;top:15px"></a>
+	<a href = "index.php"><img src="heat_tweet_logo.svg" style ="width:203px;height:30px;position:relative;top:25px"></a>
 	</div>
 </div>
 	<div class="hline"></div>
