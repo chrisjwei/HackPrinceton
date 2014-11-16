@@ -90,10 +90,10 @@ $( document ).ready(function() {
     new google.maps.LatLng(37.785, -122.435)
   ];
 
-  var sanFrancisco = new google.maps.LatLng(37.774546, -122.433523);
+  var USA = new google.maps.LatLng(39.5, -98.35);
   map = new google.maps.Map(document.getElementById('map'), {
-    center: sanFrancisco,
-    zoom: 13
+    center: USA,
+    zoom: 4
   });
 
   set_heatmap(data, map);
