@@ -5,33 +5,44 @@ var map;
 
 var heatmap;
 
-var data;
+var data = new google.maps.MVCArray();
 
 function update_heatmap(newLatLng){
   data.push(newLatLng);
+  if(data.length > 50){
+    data[0]= null;
+    data.push(newLatLng);
+    data.shift();
+  }
+  else if(data.length === 1){ //activates when data = []
+    set_heatmap(data, map);
+  }
 }
 
-function set_heatmap(data, map){
+function set_heatmap(heatdata, map){
 
   var sanFrancisco = new google.maps.LatLng(37.774546, -122.433523);
 
   heatmap = new google.maps.visualization.HeatmapLayer({
-    data: data,
+    data: heatdata,
     //gradient: ["#060990", "#4400ff", "#ff0000", "#f2aaaa"],
-    radius: 5
+    radius: 10,
   });
   heatmap.setMap(map);
 
 }
 
-function set_map(map){
-  var sanFrancisco = new google.maps.LatLng(37.774546, -122.433523);
+function set_map(){
 
-  map = new google.maps.Map(document.getElementById('map'), {
-    center: sanFrancisco,
-    zoom: 13,
+  var sanFran = new google.maps.LatLng(50, -70);
+
+  /*map = new google.maps.Map(document.getElementById('map'), {
+    center: sanFran,
+    zoom: 8,
     mapTypeId: google.maps.MapTypeId.SATELLITE
-  });
+  });*/
+  data.push(new google.maps.LatLng(50, -100));
+  //set_heatmap(data, map);
 }
 
 function scroll_to_div()
@@ -73,30 +84,15 @@ function timer_fired()
 
 
 $( document ).ready(function() {
-  data = [
-    new google.maps.LatLng(37.782, -122.447),
-    new google.maps.LatLng(37.782, -122.445),
-    new google.maps.LatLng(37.782, -122.443),
-    new google.maps.LatLng(37.782, -122.441),
-    new google.maps.LatLng(37.782, -122.439),
-    new google.maps.LatLng(37.782, -122.437),
-    new google.maps.LatLng(37.782, -122.435),
-    new google.maps.LatLng(37.785, -122.447),
-    new google.maps.LatLng(37.785, -122.445),
-    new google.maps.LatLng(37.785, -122.443),
-    new google.maps.LatLng(37.785, -122.441),
-    new google.maps.LatLng(37.785, -122.439),
-    new google.maps.LatLng(37.785, -122.437),
-    new google.maps.LatLng(37.785, -122.435)
-  ];
 
+  //defaults
   var USA = new google.maps.LatLng(39.5, -98.35);
   map = new google.maps.Map(document.getElementById('map'), {
     center: USA,
     zoom: 4
   });
-
-  set_heatmap(data, map);
+  data = [new google.maps.LatLng(50, -80)];
+  set_heatmap(data, map)
 
   $('#submit').click(function(){
   		var val = $('#query_text').val();
