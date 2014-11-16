@@ -69,7 +69,9 @@
 		</div>
 	</div>
 	</div>
-	<div id = "footer"></div>	
+	<div id = "footer">
+		Created by Chris Wei
+	</div>	
 
 </body>
 </document>
