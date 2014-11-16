@@ -3,14 +3,14 @@ var counter = 0;
 
 function make_heatmap(zoom){
 // map center
-  var myLatlng = new google.maps.LatLng(25.6586, -80.3568);
+  var myLatlng = new google.maps.LatLng(39.50, -98.35);
   // map options,
   var myOptions = {
     zoom: zoom,
     center: myLatlng,
   };
   // standard map
-  map = new google.maps.Map(document.getElementById("map-canvas"), myOptions);
+  map = new google.maps.Map(document.getElementById("map"), myOptions);
   // heatmap layer
   heatmap = new HeatmapOverlay(map, 
     {
@@ -46,30 +46,14 @@ function make_heatmap(zoom){
 
 
 function drawNewZoom(){
-var newZoom = map.getZoom();
-make_heatmap(newZoom);
+  var newZoom = map.getZoom();
+  make_heatmap(newZoom);
 }
 function scroll_to_div()
 {
 	$('html, body').animate({
     scrollTop: $("#anchor").offset().top
  	});
-}
-function make_map(){
-    // copy-paste this tag: <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
-    // map center
-
-    var myLatlng = new google.maps.LatLng(25.6586, -80.3568);
-    // map options,
-    var myOptions = {
-          zoom: 4,
-          center: myLatlng,
-          panControl: false,
-          zoomControl: false,
-          scaleControl: true
-    };
-        // standard map
-    map = new google.maps.Map(document.getElementById("map"), myOptions);
 }
 
 function apply_updates(){
@@ -104,7 +88,6 @@ function timer_fired()
 
 
 $( document ).ready(function() {
-  make_map();
   make_heatmap(4);
   $('#submit').click(function(){
   		var val = $('#query_text').val();
