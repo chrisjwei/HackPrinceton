@@ -1,10 +1,9 @@
-<!--DOCTYPE html-->
 <html>
 <document>
 <header>
 <title>Data is Beautiful</title>
-  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
-  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script></script>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   <script type="text/javascript" src="https://www.google.com/jsapi"> </script>
   <script type="text/javascript"
   src="https://maps.googleapis.com/maps/api/js?libraries=visualization&sensor=true_or_false">
@@ -13,7 +12,6 @@
 	</script>
   <script type="text/javascript" src="min.js"></script> 
   <link rel="stylesheet" type="text/css" href="stylesheet.css">
-  <link rel="icon" type="image/ico" href="favicon.ico">
 </header>
 <body style=background-color:#F9F9F9;>
 <div class = "header">
@@ -38,10 +36,7 @@
 	<div class="hline" style="background-color:#eaeaea"></div>
 	<div class = "drop_shadow">
 	<div class = "main">
-	<div style = "height:30px;margin-top:20px">
-		<div style="position:inline-block; float:left;">Twitter feed across the world, filtering by &nbsp;</div>
-		<div id="search_term" style="position:inline-block; float:left;">NONE</div>
-	</div>
+	<div class="divtitle"> Tweets around the World: </div> <div id="search_term">All tweets</div>
 		<div id="map" style="height: 540px; width: 790px;float:left;clear:both;"></div>
 		<div id="tweets">
 			<ul id="results">
