@@ -21,6 +21,35 @@ hr{
 	border: 1px dotted #F0F0F0;
 }
 
+a:link {
+    text-decoration: none;
+    color: #91e8fb;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #91e8fb;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #91e8fb;
+}
+
+a:active {
+    text-decoration: none;
+    color: #91e8fb;
+}
+#credits ul
+{
+	position:inline-block;
+	float:left;
+	margin-right:10px;
+	color:#f0f0f0;
+	font-weight:600;
+	font-size:14px;
+}
+
 .hline{
 	height:3px;
 	background-color:#C5EFF7;
@@ -43,7 +72,7 @@ hr{
 }
 #footer{
 	margin-top:500px;
-	background-color:#d0d0d0;
+	background-color:#c0c0c0;
 	height:200px;
 }
 .buffer{

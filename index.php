@@ -70,7 +70,28 @@
 	</div>
 	</div>
 	<div id = "footer">
-		Created by Chris Wei
+	<div class = "main">
+		<br>
+		<div style="color:white;font-size:12px;font-weight:800;padding-top:15px;padding-bottom:5px">
+		Created by...
+		</div>
+		<div id="credits">
+		<ul style="font-weight:200">
+			<li>Christopher Wei</li>
+			<li>Shreya Gupta</li>
+			<li>Richard Chiang</li>
+			<li>Ariel Rao</li>
+			<li>Anatol Liu</li>
+		</ul>
+		<ul style="color:#91e8fb">
+			<li><a href="https://twitter.com/creeswei">@creeswei</a></li>
+			<li><a href="https://twitter.com/omgitsshreya">@omgitsshreya</a></li>
+			<li><a href="https://twitter.com/richardchiang2">@richardchiang2</a></li>
+			<li><a href="https://twitter.com/raoariel">@raoariel</a></li>
+			<li><a href="https://twitter.com/liuanatol">@liuanatol</a></li>
+		</ul>
+		</div>
+	</div>
 	</div>	
 
 </body>
