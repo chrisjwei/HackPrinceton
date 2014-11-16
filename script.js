@@ -16,8 +16,8 @@ function set_heatmap(data, map){
   var sanFrancisco = new google.maps.LatLng(37.774546, -122.433523);
 
   heatmap = new google.maps.visualization.HeatmapLayer({
-    data: heatmapData,
-    gradient: ["#060990", "#4400ff", "#ff0000", "#f2aaaa"],
+    data: data,
+    //gradient: ["#060990", "#4400ff", "#ff0000", "#f2aaaa"],
     radius: 5
   });
   heatmap.setMap(map);
