@@ -38,7 +38,11 @@ function set_heatmap(heatdata, map){
 
 }
 
+<<<<<<< HEAD
 var ws = new WebSocket('wss://' + location.hostname + ':80/');
+=======
+var ws = new WebSocket('ws://' + location.hostname + ':8080/');
+>>>>>>> parent of 9a6400f... ddd
 var map, markers = [];
 var currentLocation;
 var play = true;
