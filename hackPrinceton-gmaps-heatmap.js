@@ -52,7 +52,6 @@ HeatmapOverlay.prototype.initialize = function(cfg) {
   cfg.container = container;
 
   google.maps.event.addListener(map, 'zoom_changed', drawNewZoom);
-
 };
 
 HeatmapOverlay.prototype.onAdd = function(){
@@ -241,7 +240,7 @@ HeatmapOverlay.prototype.setData = function(data) {
 };
 // experimential. not ready yet.
 HeatmapOverlay.prototype.addData = function(pointOrArray) {
-  if (pointOrArray.length > 0) {
+  if (pointOrArray.length > 1) {
       var len = pointOrArray.length;
       while(len--) {
         this.addData(pointOrArray[len]);
