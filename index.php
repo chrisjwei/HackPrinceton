@@ -6,6 +6,8 @@
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
   <script type="text/javascript" src="https://www.google.com/jsapi"> </script>
+  <script type="text/javascript" src="hackPrinceton-heatmap.js"></script>
+  <script type="text/javascript" src="hackPrinceton-gmaps-heatmap.js"></script>
   <script type="text/javascript" src="script.js"></script>  
   <link rel="stylesheet" type="text/css" href="stylesheet.css">
 </header>
