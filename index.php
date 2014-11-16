@@ -12,7 +12,7 @@
 <body style=background-color:#F9F9F9;>
 <div class = "header">
 	<div class = "header_content">
-	<img src="heat_tweet_logo.svg" style ="width:203px;height:46px;position:relative;top:15px">
+	<a href = "index.php"><img src="heat_tweet_logo.svg" style ="width:203px;height:46px;position:relative;top:15px"></a>
 	</div>
 </div>
 	<div class="hline"></div>
