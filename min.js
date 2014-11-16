@@ -38,7 +38,7 @@ function set_heatmap(heatdata, map){
 
 }
 
-var ws = new WebSocket('wss://' + location.hostname + ':8080/');
+var ws = new WebSocket('wss://' + location.hostname + ':443/');
 var map, markers = [];
 var currentLocation;
 var play = true;
