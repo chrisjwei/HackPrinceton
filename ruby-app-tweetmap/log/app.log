@@ -1,0 +1,9 @@
+I, [2014-11-16T02:11:14.449191 #38733]  INFO -- : Starting application
+I, [2014-11-16T02:11:14.452853 #38733]  INFO -- : Parsing options...
+I, [2014-11-16T02:11:14.453164 #38733]  INFO -- : Starting websocket server
+I, [2014-11-16T02:11:14.453249 #38733]  INFO -- : Loading Twitter credentials from /Users/arielrao/Downloads/ruby-app-tweetmap/config/twitter.yml
+I, [2014-11-16T02:11:14.453874 #38733]  INFO -- : Making connection to Twitter streaming API...
+I, [2014-11-16T02:11:17.039786 #38733]  INFO -- : Serving incoming request from 127.0.0.1
+I, [2014-11-16T02:11:17.170563 #38733]  INFO -- : WebSocket connection open
+I, [2014-11-16T02:11:17.170632 #38733]  INFO -- : 1 clients connected
+I, [2014-11-16T02:11:36.595925 #38733]  INFO -- : Websocket connection closed
