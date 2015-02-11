@@ -1,4 +1,4 @@
-HackPrinceton 2014 : HeatTweet
+HackPrinceton 2014 : TweetHeat
 =============
 
   TweetHeat is a web application running off of Ruby on Rails in the back end, which streams live data to a javascript front end, which plots the data onto a Google Map plugin.
