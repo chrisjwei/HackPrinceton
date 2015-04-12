@@ -1,10 +1,10 @@
-HackPrinceton 2014 : TweetHeat
+HackPrinceton 2014 : HeatTweet
 =============
 
-  TweetHeat is a web application running off of Ruby on Rails in the back end, which streams live data to a javascript front end, which plots the data onto a Google Map plugin.
+  HeatTweet is a web application running off of Ruby on Rails in the back end, which streams live data to a javascript front end, which plots the data onto a Google Map plugin.
 
 
-Although variations of TweetHeat have been made before, we found the idea to be nonetheless interesting and thought provoking, giving statistical insight on regional lingo and urban slang.
+Although variations of HeatTweet have been made before, we found the idea to be nonetheless interesting and thought provoking, giving statistical insight on regional lingo and urban slang.
 
 
 The idea was to be able to make a hypothesis before searching a keyword, such as I believe that the west coast is going to light up if I query the phrase "hella" or college towns are going to spike in twitter activity with regards to queries such as "drunk af", "turnt" and "pizza" on Friday nights.
